@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body {
     background-color: #f5f5f5;
     color: #333;
     transition: background-color 0.5s, color 0.5s;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -22,5 +32,62 @@ body.dark-mode {
 
 .toggle-btn::after {
     content: "\2600";
+    font-size: 50px;
+}
+
+.ad-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: 50%;
+}
+
+.ad-content {
+    text-align: center;
+    padding: 20px;
+    max-width: 60%;
+    position: relative;
+    border-radius: 5px;
+}
+
+h1 {
     font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ce2121;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #b10d0d;
+}
+
+@media only screen and (max-width: 600px) {
+    .ad-banner {
+        height: auto;
+    }
+
+    .ad-content {
+        position: absolute;
+        max-width: 100%;
+        padding: 10px;
+        bottom: 20%;
+    }
 }
