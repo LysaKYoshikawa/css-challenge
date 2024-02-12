@@ -1,4 +1,4 @@
-# Desafio de 30 dias de CSS  :art:
+# 30 Desafios de CSS  :art:
 
 Fala Galera todos bem?
 
