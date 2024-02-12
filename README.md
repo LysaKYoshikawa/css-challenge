@@ -31,7 +31,7 @@ Alguns dos projetos que recebi indicação foram:
 ll
 ## :gem: Contribuindo
 
-Sinta-se à vontade para contribuir e fazer sugestões para melhorar este aplicativo de exemplo.
+Sinta-se à vontade para contribuir e fazer sugestões.
 
 
 #  :information_desk_person: Author
