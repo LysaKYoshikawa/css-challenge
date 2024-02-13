@@ -16,8 +16,8 @@ body{
 .carrossel{
     overflow: hidden;
     border-radius: 5%;
-    height: 520px;
-    width: 935px;
+    height: 60vh;
+    width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,23 +32,23 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
-    font-size: 50px;
+    font-size: 3vw;
 }
 
 .navigation{
     position: absolute;
-    bottom: 20px;
+    bottom: 2%;
     left: 50%;
     transform: translate(-50%);
     display: flex;
 }
 
 .bar{
-    width: 70px;
-    height: 17px;
+    width: 2.5vw;
+    height: 0.5vw;
     border: 2px solid #fff;
-    margin: 6px;
-    border-radius: 5px;
+    margin: 0.6vw;
+    border-radius: 0.5vw;
     cursor: pointer;
     transition: .4s;
 }
@@ -91,5 +91,22 @@ img{
 
 #slide4:checked ~ .s1 {
     margin-left: -60%;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    img{
+        height: 50%
+    }
+
+    .bar {
+        width: 3vw;
+        height: 1vw;
+        margin: 1vw;
+        border-radius: 1vw;
+    }
 }
 
