@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;800;900&family=Protest+Riot&family=Sixtyfour&family=Work+Sans:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +9,11 @@
 body{
     height: 100vh;
     width: 100vw;
+    font-family: "Protest Riot", sans-serif;
     background: linear-gradient(72deg, #6d34dd 1%, #23b1b1 99%);
 }
 
 .carrossel{
-    /* box-shadow: 2px 2px 4px black; */
     overflow: hidden;
     border-radius: 5%;
     height: 520px;
@@ -21,6 +23,16 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+h1{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 50px;
 }
 
 .navigation{
